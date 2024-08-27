@@ -1,0 +1,11 @@
+﻿<Page
+    x:Class="talko.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:talko"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls">
+
+    <Grid>
+        <controls:WebView2 x:Name="WebView2" Source="https://talkomatic.co" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+    </Grid>
+</Page>
